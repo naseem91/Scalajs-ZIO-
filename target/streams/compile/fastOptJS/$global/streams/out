@@ -1,0 +1,96 @@
+[0m[[0minfo[0m] [0mFast optimizing /home/naseem/Documents/SFreely NEW/ZIOwithJs/target/scala-2.12/ziowithjs-fastopt.js[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 153380 us[0m
+[0m[[31merror[0m] [0mReferring to non-existent class scalaz.zio.console.package$[0m
+[0m[[31merror[0m] [0m  called from Test$.<init>()[0m
+[0m[[31merror[0m] [0m  called from core module module initializers[0m
+[0m[[31merror[0m] [0mReferring to non-existent class scalaz.zio.IO$[0m
+[0m[[31merror[0m] [0m  called from Test$.viewNumber(java.lang.String)scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.$$anonfun$test$2(java.lang.String)scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.$$anonfun$test$1(scala.runtime.BoxedUnit)scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.<init>()[0m
+[0m[[31merror[0m] [0m  called from core module module initializers[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  Test$[0m
+[0m[[0mdebug[0m] [0m    instantiated from core module module initializers[0m
+[0m[[31merror[0m] [0mReferring to non-existent method scalaz.zio.IO$.unit()scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.viewNumber(java.lang.String)scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.$$anonfun$test$2(java.lang.String)scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.$$anonfun$test$1(scala.runtime.BoxedUnit)scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.<init>()[0m
+[0m[[31merror[0m] [0m  called from core module module initializers[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  Test$[0m
+[0m[[0mdebug[0m] [0m    instantiated from core module module initializers[0m
+[0m[[31merror[0m] [0mReferring to non-existent method scalaz.zio.console.package$.getStrLn()scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.$$anonfun$test$1(scala.runtime.BoxedUnit)scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.<init>()[0m
+[0m[[31merror[0m] [0m  called from core module module initializers[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  Test$[0m
+[0m[[0mdebug[0m] [0m    instantiated from core module module initializers[0m
+[0m[[31merror[0m] [0mReferring to non-existent method scalaz.zio.console.package$.putStrLn(java.lang.String)scalaz.zio.IO[0m
+[0m[[31merror[0m] [0m  called from Test$.<init>()[0m
+[0m[[31merror[0m] [0m  called from core module module initializers[0m
+[0m[[31merror[0m] [0mReferring to non-existent method scalaz.zio.App.$$init$()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from Test$.<init>()[0m
+[0m[[31merror[0m] [0m  called from core module module initializers[0m
+[0m[[31merror[0m] [0mReferring to non-existent method scalaz.zio.RTS.$$init$()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from Test$.<init>()[0m
+[0m[[31merror[0m] [0m  called from core module module initializers[0m
+[0m[[31merror[0m] [0mReferring to non-existent method scalaz.zio.App.main([java.lang.String)scala.Unit[0m
+[0m[[31merror[0m] [0m  called from Test$.main([java.lang.String)scala.Unit[0m
+[0m[[31merror[0m] [0m  called from core module module initializers[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  Test$[0m
+[0m[[0mdebug[0m] [0m    instantiated from core module module initializers[0m
+org.scalajs.core.tools.linker.LinkingException: There were linking errors
+	at org.scalajs.core.tools.linker.frontend.BaseLinker.linkInternal(BaseLinker.scala:163)
+	at org.scalajs.core.tools.linker.frontend.BaseLinker.linkInternal(BaseLinker.scala:110)
+	at org.scalajs.core.tools.linker.frontend.LinkerFrontend$$anonfun$4.apply(LinkerFrontend.scala:65)
+	at org.scalajs.core.tools.linker.frontend.LinkerFrontend$$anonfun$4.apply(LinkerFrontend.scala:65)
+	at org.scalajs.core.tools.logging.Logger$class.time(Logger.scala:31)
+	at org.scalajs.sbtplugin.Loggers$SbtLoggerWrapper.time(Loggers.scala:19)
+	at org.scalajs.core.tools.linker.frontend.LinkerFrontend.link(LinkerFrontend.scala:64)
+	at org.scalajs.core.tools.linker.Linker$$anonfun$link$1.apply$mcV$sp(Linker.scala:54)
+	at org.scalajs.core.tools.linker.Linker$$anonfun$link$1.apply(Linker.scala:53)
+	at org.scalajs.core.tools.linker.Linker$$anonfun$link$1.apply(Linker.scala:53)
+	at org.scalajs.core.tools.linker.Linker.guard(Linker.scala:72)
+	at org.scalajs.core.tools.linker.Linker.link(Linker.scala:53)
+	at org.scalajs.core.tools.linker.ClearableLinker$$anonfun$link$1.apply(ClearableLinker.scala:55)
+	at org.scalajs.core.tools.linker.ClearableLinker$$anonfun$link$1.apply(ClearableLinker.scala:55)
+	at org.scalajs.core.tools.linker.ClearableLinker.linkerOp(ClearableLinker.scala:66)
+	at org.scalajs.core.tools.linker.ClearableLinker.link(ClearableLinker.scala:55)
+	at org.scalajs.sbtplugin.ScalaJSPluginInternal$$anonfun$org$scalajs$sbtplugin$ScalaJSPluginInternal$$scalaJSStageSettings$6$$anonfun$apply$9$$anonfun$apply$10.apply(ScalaJSPluginInternal.scala:325)
+	at org.scalajs.sbtplugin.ScalaJSPluginInternal$$anonfun$org$scalajs$sbtplugin$ScalaJSPluginInternal$$scalaJSStageSettings$6$$anonfun$apply$9$$anonfun$apply$10.apply(ScalaJSPluginInternal.scala:314)
+	at sbt.FileFunction$$anonfun$cached$1.apply(Tracked.scala:253)
+	at sbt.FileFunction$$anonfun$cached$1.apply(Tracked.scala:253)
+	at sbt.FileFunction$$anonfun$cached$2$$anonfun$apply$3$$anonfun$apply$4.apply(Tracked.scala:267)
+	at sbt.FileFunction$$anonfun$cached$2$$anonfun$apply$3$$anonfun$apply$4.apply(Tracked.scala:263)
+	at sbt.Difference.apply(Tracked.scala:224)
+	at sbt.Difference.apply(Tracked.scala:206)
+	at sbt.FileFunction$$anonfun$cached$2$$anonfun$apply$3.apply(Tracked.scala:263)
+	at sbt.FileFunction$$anonfun$cached$2$$anonfun$apply$3.apply(Tracked.scala:262)
+	at sbt.Difference.apply(Tracked.scala:224)
+	at sbt.Difference.apply(Tracked.scala:200)
+	at sbt.FileFunction$$anonfun$cached$2.apply(Tracked.scala:262)
+	at sbt.FileFunction$$anonfun$cached$2.apply(Tracked.scala:260)
+	at org.scalajs.sbtplugin.ScalaJSPluginInternal$$anonfun$org$scalajs$sbtplugin$ScalaJSPluginInternal$$scalaJSStageSettings$6$$anonfun$apply$9.apply(ScalaJSPluginInternal.scala:332)
+	at org.scalajs.sbtplugin.ScalaJSPluginInternal$$anonfun$org$scalajs$sbtplugin$ScalaJSPluginInternal$$scalaJSStageSettings$6$$anonfun$apply$9.apply(ScalaJSPluginInternal.scala:308)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m[[31merror[0m] [0m(compile:[31mfastOptJS[0m) org.scalajs.core.tools.linker.LinkingException: There were linking errors[0m
