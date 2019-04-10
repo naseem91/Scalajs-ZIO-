@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ziowithjs.iml" filepath="$PROJECT_DIR$/.idea/modules/ziowithjs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ziowithjs-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ziowithjs-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalajs-zio-.iml" filepath="$PROJECT_DIR$/.idea/modules/scalajs-zio-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalajs-zio--build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalajs-zio--build.iml" />
     </modules>
   </component>
 </project>
